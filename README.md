@@ -38,3 +38,6 @@
   <img src="https://JBEval.github.io/figures/Score_30x80_binary.png" height="300"/>
 
 </div>
+
+
+<embed src="./files/Educon2025_Presentation.pdf" width="500" height="375">
