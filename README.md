@@ -20,8 +20,6 @@
   </style>
 
 <div align="center">
-  <h1> JBEval: A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports</h1>
-    <div>&nbsp;</div>
   <div align="center">
     <a href="https://JBEval.github.io"><b><font size="5">Homepage</font></b></a>
     <sup>
@@ -38,7 +36,9 @@
     </sup>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://ieeexplore.ieee.org/abstract/document/11016521"><b><font size="5">[Paper]</font></b></a>
-</div>
+  </div>  
+<h1> JBEval: A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports</h1>
+<div>&nbsp;</div>
 </div>
 <!--
 <h1> JBEval: A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports </h1>
@@ -52,7 +52,8 @@
 <hr>
 
 <div align="center" align-items="center">
-<img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="500"/>
+  
+<img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="500" style="padding-top: 200px; display: block; border: none;"/>
   
 <img src="https://JBEval.github.io/figures/Similarity_score_viz_1.png" height="500"/>
 </div>
