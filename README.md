@@ -38,9 +38,9 @@
 </div>
 
 
+<embed src="https://JBEval.github.io/files/Educon2025_Presentation.pdf" height="500" width="900">
 
-
-
+<hr>
 
 <!--
 <div class="container">
