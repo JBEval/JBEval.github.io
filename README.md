@@ -19,7 +19,31 @@
   }
   </style>
 
+<div align="center">
+  <h1> JBEval: A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports</h1>
+    <div>&nbsp;</div>
+  <div align="center">
+    <a href="https://JBEval.github.io"><b><font size="5">Homepage</font></b></a>
+    <sup>
+      <a href="https://JBEval.github.io">
+        <i><font size="4">H</font></i>
+      </a>
+    </sup>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://JBEval.github.io"><b><font size="5">Getting started [coming soon ..]</font></b></a>
+    <sup>
+      <a href="https://JBEval.github.io">
+        <i><font size="4">T</font></i>
+      </a>
+    </sup>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://ieeexplore.ieee.org/abstract/document/11016521"><b><font size="5">[Paper]</font></b></a>
+</div>
+</div>
+
+<!--
 <h1> JBEval: A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports </h1>
+-->
 <h3>
 <a href="https://ieeexplore.ieee.org/abstract/document/11016521">
   <button>Link to full Paper</button>
@@ -77,6 +101,9 @@
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://ieeexplore.ieee.org/abstract/document/11016521"><b><font size="5">[Full Paper]</font></b></a>
 </div>
+</div>
+
+  
 <div>&nbsp;</div>
   
   <img src="https://JBEval.github.io/figures/Block_Matching_viz_2.png" height="500"/>
