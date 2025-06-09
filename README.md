@@ -34,7 +34,7 @@
 </a>
   </div>
     <div class="image">
-    <img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png"/>
+    <img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="300"/>
   </div>
 </div>
 
