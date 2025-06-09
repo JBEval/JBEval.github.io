@@ -29,11 +29,19 @@
 <a href="https://ieeexplore.ieee.org/abstract/document/11016521">
   <button>Link to full Paper</button>
 </a>
-<div align="center">
-<img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="300"/>
+
+
+<div align="center" align-items="center">
+<img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="500"/>
   
-<img src="https://JBEval.github.io/figures/Similarity_score_viz_1.png" width="300"/>
+<img src="https://JBEval.github.io/figures/Similarity_score_viz_1.png" height="500"/>
 </div>
+
+
+
+
+
+
 <!--
 <div class="container">
   <div class="text">
