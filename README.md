@@ -29,16 +29,16 @@
 
 <hr>
 
-<div align="center" align-items="center">
+<div align="center">
   
-<img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="500" style="padding-top: 180px; display: block; border: none;"/>
-  
+<img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="500" style="padding-top: 190px; display: block; border: none;"/>
 <img src="https://JBEval.github.io/figures/Similarity_score_viz_1.png" height="500"/>
 </div>
 
 <div align="center">
 <embed src="https://JBEval.github.io/files/Educon2025_Presentation.pdf" height="500" width="90%">
 </div>
+
 <hr>
 
 <!--
