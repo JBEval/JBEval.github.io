@@ -19,17 +19,22 @@
   }
   </style>
 
-<h1> JBEval: A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports 
+<h1> JBEval: A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports </h1>
+<h3>
 <a href="https://ieeexplore.ieee.org/abstract/document/11016521">
   <button>Link to full Paper</button>
-</a> </h1>
+</a> </h3>
 
-<!--
 **Abstract**: Coding-based assessment is essential not only for evaluating students' programming skills but also for assessing their ability to apply theoretical concepts to real-world scenarios. Jupyter Notebooks constitute a unique platform to assess coding-based pieces of work. Using a Jupyter Notebook, students can write, execute and visualise code while documenting their pro-cess through explanations, equations, and multimedia elements. However, identifying cases of plagiarism and collusion in Jupyter Notebooks can be challenging. Since Jupyter Notebooks cannot be processed by traditional text-based plagiarism detection tools, the ability to identify plagiarism largely relies on manual approaches. Hence, to fully benefit from Jupyter Notebooks as an assessment platform, automatic approaches that can contribute to identifying plagiarism and collusion are needed. In this paper, we introduce a new tool - JBEval, that identifies similar code and text blocks in a collection of Jupyter Notebooks and provides similarity scores for overall code and text individually. JBEval also provides a visual comparison of any two Jupyter Notebooks, allowing to trace identical blocks for further investigation and reporting. Our similarity detection algorithm is parameterized for controlling the aggressiveness of the similarity-based detection process, which makes it adaptable to a wide diversity of courses. This fast and reliable tool will be made widely accessible by sharing it in the public domain, enabling educators across diverse disciplines to integrate it into their assessment workflows.
 <a href="https://ieeexplore.ieee.org/abstract/document/11016521">
   <button>Link to full Paper</button>
 </a>
--->
+<div align="center">
+<img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="300"/>
+  
+<img src="https://JBEval.github.io/figures/Similarity_score_viz_1.png" width="300"/>
+</div>
+<!--
 <div class="container">
   <div class="text">
   <b>Abstract</b>: Coding-based assessment is essential not only for evaluating students' programming skills but also for assessing their ability to apply theoretical concepts to real-world scenarios. Jupyter Notebooks constitute a unique platform to assess coding-based pieces of work. Using a Jupyter Notebook, students can write, execute and visualise code while documenting their pro-cess through explanations, equations, and multimedia elements. However, identifying cases of plagiarism and collusion in Jupyter Notebooks can be challenging. Since Jupyter Notebooks cannot be processed by traditional text-based plagiarism detection tools, the ability to identify plagiarism largely relies on manual approaches. Hence, to fully benefit from Jupyter Notebooks as an assessment platform, automatic approaches that can contribute to identifying plagiarism and collusion are needed. In this paper, we introduce a new tool - JBEval, that identifies similar code and text blocks in a collection of Jupyter Notebooks and provides similarity scores for overall code and text individually. JBEval also provides a visual comparison of any two Jupyter Notebooks, allowing to trace identical blocks for further investigation and reporting. Our similarity detection algorithm is parameterized for controlling the aggressiveness of the similarity-based detection process, which makes it adaptable to a wide diversity of courses. This fast and reliable tool will be made widely accessible by sharing it in the public domain, enabling educators across diverse disciplines to integrate it into their assessment workflows.
@@ -41,7 +46,7 @@
     <img src="https://JBEval.github.io/figures/Similarity_score_eq_2.png" width="300"/>
   </div>
 </div>
-
+-->
 
 
 <div align="center">
