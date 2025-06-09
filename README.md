@@ -41,7 +41,7 @@
 </div>
 <hr>
 
-
+<!--
 <div align="center">
   <h1> JBEval</h1>
     <div>&nbsp;</div>
@@ -63,10 +63,10 @@
     <a href="https://ieeexplore.ieee.org/abstract/document/11016521"><b><font size="5">[Full Paper]</font></b></a>
 </div>
 </div>
+-->
 
-  
-<div>&nbsp;</div>
-  
+<div align="center">
+  <div>&nbsp;</div> 
   <img src="https://JBEval.github.io/figures/Block_Matching_viz_2.png" height="500"/>
   <img src="https://JBEval.github.io/figures/Block_matching_1.png" height="500"/>
 
@@ -74,7 +74,6 @@
 
   <img src="https://JBEval.github.io/figures/Score_30x80.png" height="290"/>
   <img src="https://JBEval.github.io/figures/Score_30x80_binary.png" height="300"/>
-
 </div>
 
 
