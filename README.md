@@ -73,8 +73,9 @@
 </div>
 
 
-<embed src="https://JBEval.github.io/files/Educon2025_Presentation.pdf" width="500" height="375">
+<embed src="https://JBEval.github.io/files/Educon2025_Presentation.pdf" height="600">
 
-
+<!--
 <embed src="https://JBEval.github.io/files/Educon2025_Presentation.pdf" width="500" height="375" 
  type="application/pdf">
+ -->
