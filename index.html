@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="./assets/bootstrap.min.css" > -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom Css -->
+    <!-- <link rel="stylesheet" href="./assets/style.css" type="text/css" /> -->
+    <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+
+    <!-- Ionic icons -->
+    <!-- <link href="assets/ionicons.min.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <!-- <link href="./assets/fonts.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+
+    <!-- External JavaScripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="./assets/jquery-3.3.1.slim.min.js"></script> -->
+    <!-- <script src="./assets/popper.min.js"></script> -->
+    <!-- <script src="./assets/bootstrap.min.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <title>JBEval</title>
+  </head>
+
+  <body>
+
+  <!-- N A V B A R -->
+  <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon ion-md-menu"></span>
+    </button>
+    <img src="images/logo.png" class="img-fluid nav-logo-mobile" alt="Company Logo" width="25%">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="container">
+      	<img src="images/logo.png" class="img-fluid nav-logo-desktop" alt="Company Logo" width="15%">
+        <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="index.html">Home <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#features">Features <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#contacts">Contact us<i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <!-- <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#pricing">Pricing <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li> -->
+          <li class="nav-item nav-custom-link btn btn-demo-small">
+            <a class="nav-link" href="#call-to-action">Get Started<i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- E N D  N A V B A R -->
+
+  <!-- H E R O -->
+  <section id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+          <center>
+          <img src="images/JBEval_Viz.png" class="img-fluid" alt="Demo image" width="75%">
+        </center>
+        </div>
+        <div class="col-md-7 content-box hero-content">
+          <center>
+          <img src="images/logo.png" class="img-fluid" alt="logo" width="55%">
+         </center>
+         <br>
+          <!-- <span>...</span> -->
+          <h1>JBEval: A Similarity Tool for <br> <b>Jupyter Notebooks</b></h1>
+          <p>A Tool for Detecting Similarities in Jupyter Notebooks Used as Assessment Reports</p>
+          <a href="https://ieeexplore.ieee.org/abstract/document/11016521" class="btn btn-regular" target="_blank">Learn more [Paper]</a>
+
+        </div>
+      </div>
+      <br>
+
+    </div>
+  </section>
+  <!-- E N D  H E R O -->
+
+  <!-- E N D  M A R K E T I N G -->
+  <section id="score">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 content-box">
+          <!-- <div class=""> -->
+            <h2>Similarity Score</h2>
+            <span>...</span>
+            <p>Overall similarity score स<sub>𝐴←𝐵</sub> indicates fraction of contents in <b>A</b> similar to <b>B</b>.</p>
+            <font size=4>
+            <ul>
+              <li> &bull; स ∈ [𝟎, 𝟏]</li>
+              <li> &bull; Asymmetric: स<sub>𝐴←𝐵</sub>   ≠  स<sub>𝐵←𝐴</sub></li>
+            </ul>
+          </font>
+            <a href="#" class="btn btn-regular">See Details ...</a>
+          <!-- </div> -->
+        </div>
+        <div class="col-md-7">
+            <img src="images/Similarity_score_eq.png" class="img-fluid" alt="Overall Score" style="padding-top: 80px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- E N D  M A R K E T I N G -->
+
+
+
+  <!-- E N D  M A R K E T I N G -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 content-box hero-content">
+        <p style="font-size:1.5rem;">Adjusting the aggressiveness of similarity detection algorithms by tuning:</p>
+          <ul style="font-size:1.5rem;">
+            <li> &bull; <b>Threshold 𝑇</b></li>
+            <li> &bull; minimum block length 𝐿<sub>𝑚</sub></li>
+          </ul>
+        <p style="font-size:1rem;">By adujsting <b>𝑇</b> and  𝐿<sub>𝑚</sub>, JBEval can be adopted to diverse context, which allows us to use JBEval for assessments in different courses.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="content-box">
+            <h2>Adjusting & Adopting</h2>
+            <span>...</span>
+            <p>Overall similarity score स<sub>𝐴←𝐵</sub> indicates fraction of contents in <b>A</b> similar to <b>B</b>.</p>
+            <a href="#" class="btn btn-regular">See Details ...</a>
+          </div>
+        </div>
+      </div>
+      <center>
+      <img src="images/Similarity_Sjw_line_matching.png" class="img-fluid" alt="line-matching" width="55%">
+      <img src="images/Block_matching_1.png" class="img-fluid" alt="line-matching" width="40%">
+    </center>
+    </div>
+
+  </section>
+  <!-- E N D  M A R K E T I N G -->
+
+  <!-- T E S T I M O N I A L S -->
+  <!-- <section id="testimonials">
+    <div class="container">
+      <div class="title-block">
+        <h2>The Best Digital Agencies Recommend Our Software</h2>
+        <p>Industry experts mention their experience using our software and the excellent results they have achieved</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="testimonial-box">
+            <div class="row personal-info">
+              <div class="col-md-2 col-xs-2">
+                <div class="profile-picture review-one"></div>
+              </div>
+              <div class="col-md-10 col-xs-10">
+                <h6>Joshua M. Salas <span class="rating">5 <i class="icon ion-md-star"></i></span></h6>
+                <small>Marketing Intelligence | Author & Content Creator</small>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque, tortor nec mattis feugiat, velit purus euismod odio, quis vulputate velit urna sit amet enim. Maecenas vulputate auctor ligula sed sollicitudin.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-box">
+            <div class="row personal-info">
+              <div class="col-md-2 col-xs-2">
+                <div class="profile-picture review-one"></div>
+              </div>
+              <div class="col-md-10 col-xs-10">
+                <h6>Michael Edwards <span class="rating">5 <i class="icon ion-md-star"></i></span></h6>
+                <small>Seo Consultant | Author & Content Creator</small>
+              </div>
+            </div>
+            <p>In euismod, metus ac elementum tincidunt, dui eros ullamcorper lorem, at euismod augue augue quis leo. Fusce non dui augue. In hac habitasse platea dictumst. Mauris quis lacinia mauris. Proin ut pretium quam. Nam at ex finibus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- E N D  T E S T I M O N I A L S -->
+
+  <!-- P R I C I N G -->
+  <section id="features">
+    <div class="container">
+      <div class="title-block">
+        <h2>Features</h2>
+        <p><b>JBEval</b> comes with following features: </p>
+      </div>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="pricing-box">
+            <h3 class="demo">Supports</h3>
+            <h6>Code/Text</h6>
+            <small></small>
+            <p>JBEval detect similarity not only in code but also in text written in Jupyter Notebooks as part of report. </p>
+            <small>Currently it supports two programing languages and text contents written in Raw and Markdown cells</small>
+            <div class="divider-light"></div>
+            <ul>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Code:Python</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Code:R</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Text:plain-text (Raw)</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Text:HTML (Markdown)</li>
+              <!-- <li><i class="icon ion-md-checkmark-circle-outline demo"></i>Five projects - <span class="demo">¡New!</span></li> -->
+            </ul>
+            <!-- <div class="text-center">
+              <a href="#" class="btn btn-demo">Demo version</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="pricing-box">
+            <h3>Control aggressiveness</h3>
+            <h6>Adopt</h6>
+
+            <p>JBEval can be adopted to divers sets of context, by adjusting two main parameters.</p>
+            <small>Adjusting Threshold <b>T</b> and minimum block length L<sub>min</sub></small>
+            <div class="divider-light"></div>
+            <ul>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Programming heavy reports (Computer Science)</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Programing + Text (Physics/Chemistry)</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Light Programing + Text (Humanities)</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Project reports / Assignments</li>
+              <!-- <li><i class="icon ion-md-checkmark-circle-outline"></i>Competitive analysis</li> -->
+              <!-- <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li> -->
+            </ul>
+            <!-- <div class="text-center">
+              <a href="#" class="btn btn-buy">Buy now</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="pricing-box">
+            <h3>Processing</h3>
+            <h6>Batch</h6>
+            <p>JBEval can be used to process batches of Jupyter-Notebooks, allowing to detect plagiarism with different cohorts</p>
+            <small>Batch Processings</small>
+            <div class="divider-light"></div>
+            <ul>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Fast batch processing</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Comparing with previous cohorts</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Detects plagiarism and collusions</li>
+              <li><i class="icon ion-md-checkmark-circle-outline"></i>Identifying groups of similar reports</li>
+              <!-- <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li> -->
+            </ul>
+
+            <!-- <div class="text-center"><a href="#" class="btn btn-buy">Buy now</a></div> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- E N D  P R I C I N G -->
+
+  <!-- C A L L  T O  A C T I O N -->
+  <section id="call-to-action">
+    <div class="container text-center">
+      <h2>Comming soon ...</h2>
+      <div class="title-block">
+        We are developing the online services of this tool for public use, which will be released with full details soon. For now, please refer to our publication.
+        <p>...</p>
+        <a href="#" class="btn btn-regular">Get Started</a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/11016521" class="btn btn-regular" target="_blank">Full Paper</a>
+
+      </div>
+    </div>
+  </section>
+  <!-- E N D  C A L L  T O  A C T I O N -->
+
+  <!--  F O O T E R  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" id="contacts">
+          <h5>Contact us</h5>
+          <p>We are happy to hear from you ..</p>
+          <ul>
+            <li><a href="mailto:nikesh.bajaj@qmul.ac.uk" class="external-links">Nikesh Bajaj</a></li>
+            <li><a href="mailto:d.chiotis@qmul.ac.uk" class="external-links">Dimitirs Chiotis</a></li>
+            <li><a href="mailto:j.requena@qmul.ac.uk" class="external-links">Jesús Requena Carrión</a></li>
+            <!-- <li><a href="#">Developer API</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Video Tutorials</a></li> -->
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h5>Links</h5>
+          <ul>
+            <li><a href="#">..</a></li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/11016521" target="_blank" class="external-links">Full Paper</a>
+            <!-- <li><a href="#">Backlink Checker</a></li>
+            <li><a href="#">Keyword Generator</a></li>
+            <li><a href="#">Serp Checker</a></li>
+            <li><a href="#">Site Audit</a></li> -->
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>..</h5>
+          <ul>
+            <li><a href="#">..</a></li>
+            <!-- <li><a href="#">Top Google Searches</a></li>
+            <li><a href="#">Avoid Google Penalties</a></li>
+            <li><a href="#">White Hat SEO Tips</a></li>
+            <li><a href="#">Google Trends</a></li> -->
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>..</h5>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque, tortor nec mattis feugiat, velit purus euismod odio, quis vulputate velit urna.</p>
+          <p><a href="mailto:sales@theseocompany.com" class="external-links">sales@theseocompany.com</a></p> -->
+          <p>..</p>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <!-- <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <a href="#"><i class="icon ion-logo-facebook"></i></a>
+            <a href="#"><i class="icon ion-logo-instagram"></i></a>
+            <a href="#"><i class="icon ion-logo-twitter"></i></a>
+            <a href="#"><i class="icon ion-logo-youtube"></i></a>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <small>2018 &copy; All rights reserved. Made by <a href="http://templune.com/" target="blank" class="external-links">Templune</a></small>
+          </div>
+      </div> -->
+      <small>this webpage is made by using template from <a href="https://www.behance.net/gallery/67279127/The-Seo-Company-Free-PSD-Template" target="blank"> templune</a></small>
+      <!-- <small>2018 &copy; All rights reserved. Made by <a href="http://templune.com/" target="blank" class="external-links">Templune</a></small> -->
+    </div>
+  </footer>
+  <!--  E N D  F O O T E R  -->
+
+
+    <!-- External JavaScripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+  </body>
+</html>
