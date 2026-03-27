@@ -527,7 +527,7 @@ footerloop {
 }
 
 footerloop h5 {
-	color: #1b57d0;
+	color: #96620d;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	margin-bottom: 20px;
@@ -769,4 +769,13 @@ footerloop small {
 		margin-top: 4px;
 		margin-left: 10px;
 	}
+}
+
+#flogo {
+        position: relative;
+    }
+#flogo img {
+        position: absolute;
+        top: 0px;
+        right: 10px;
 }
