@@ -517,6 +517,68 @@ footer small {
 }
 
 /* ==============================================
+   9. Footerloop
+===============================================*/
+
+footerloop {
+	background-color: #6fa1f7;
+    padding: 60px 0;
+    color: #62656a;
+}
+
+footerloop h5 {
+	color: #1b57d0;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-bottom: 20px;
+}
+
+footerloop p {
+	font-size: 12px;
+	font-weight: 300;
+	color: #62656a;
+	text-align: justify;
+	padding: 0px;
+}
+
+footerloop li {
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: .05em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+footerloop a {
+	color: #62656a;
+}
+
+footerloop a:hover {
+	color: #0095f7;
+	text-decoration: none;
+}
+
+footerloop i {
+	font-size: 25px;
+	color: #62656a;
+	margin-right: 10px;
+}
+
+footerloop i:hover {
+	color: #0095f7;
+}
+
+footerloop small {
+	color: #62656a;
+	float: right;
+}
+
+.external-links {
+	color: #0095f7;
+}
+
+
+/* ==============================================
    9. Media Queries
 ===============================================*/
 
@@ -561,6 +623,30 @@ footer small {
 		margin-right: 20px;
 	}
 	footer small {
+		float: left;
+		margin-top: 20px;
+	}
+
+	
+	footerloop {
+		padding: 60px 25px;
+	}
+	footerloop h5 {
+		font-size: 18px;
+		margin-top: 30px;
+	}
+	footerloop li {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	footerloop p {
+		font-size: 16px;
+	}
+	footerloop i {
+		font-size: 30px;
+		margin-right: 20px;
+	}
+	footerloop small {
 		float: left;
 		margin-top: 20px;
 	}
